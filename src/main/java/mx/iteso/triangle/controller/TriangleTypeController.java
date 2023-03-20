@@ -3,7 +3,6 @@ package mx.iteso.triangle.controller;
 import jakarta.validation.Valid;
 import mx.iteso.triangle.dto.TriangleDto;
 import mx.iteso.triangle.dto.TriangleTypeResponse;
-import mx.iteso.triangle.enums.TriangleTypes;
 import mx.iteso.triangle.service.TriangleType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
