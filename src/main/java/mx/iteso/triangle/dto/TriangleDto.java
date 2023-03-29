@@ -1,9 +1,13 @@
 package mx.iteso.triangle.dto;
 
 import jakarta.validation.constraints.Positive;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class TriangleDto {
 
     @Positive(message = "sideA must be higher than 0")
