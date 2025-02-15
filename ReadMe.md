@@ -27,7 +27,7 @@ This is a maven project based on spring-boot framework.
 To run it, just type: 
 
 ```
-mvn spring-boot:run
+./mvnw spring-boot:run
 ```
 
 All the required dependencies will be downloaded, and the project will be compiled. 
@@ -45,7 +45,7 @@ The test suite can be executed by running
 ```
 
 There is also  a new dependency/plugin added to the pom.xml file: 
-Jacoco. This plugins generates a test coverage report. 
+Jacoco. This plugin generates a test coverage report. 
 
 Open the file `target/site/jacoco/index.html` with your browser, after the 
 test has ran. 
