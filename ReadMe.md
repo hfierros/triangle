@@ -20,7 +20,7 @@ And will return a 200 and the type of triangle: SCALENE, ISOSCELES or EQUILATERA
 
 ## To run this project
 
-Be sure to have Java 17 and maven 3.5.*+ installed
+Be sure to have Java 21 and maven 3.5.*+ installed
 
 This is a maven project based on spring-boot framework. 
 
