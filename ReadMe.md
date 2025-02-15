@@ -18,6 +18,19 @@ And will return a 200 and the type of triangle: SCALENE, ISOSCELES or EQUILATERA
         "type" : "SCALENE"
     }
 
+## To run this project
+
+Be sure to have Java 21 and maven 3.5.*+ installed
+
+This is a maven project based on spring-boot framework. 
+
+To run it, just type: 
+
+```
+mvn spring-boot:run
+```
+
+All the required dependencies will be downloaded, and the project will be compiled. 
 
 ## UNIT TEST BRANCH
 
